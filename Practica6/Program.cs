@@ -13,7 +13,7 @@ namespace Practica6
             double F = 3 * Math.Sin(x + 2);
             
             Console.WriteLine($"Для значения х = {x}, F = {F}.");
-            Console.WriteLine("Нажмите любую клавишу ");
+            Console.WriteLine("нажмите клавишу");
             Console.ReadKey();
         }
     }
