@@ -6,13 +6,14 @@ namespace Practica6
     {
         static void Main(string[] args)
         {
-            // Этап 1: Ввод значения параметра x
             Console.Write("Введите значения параметра x = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             
-            // На этом этапе программа просто ждет ввода
-            Console.WriteLine("Ввод завершен. Нажмите любую клавишу для выхода...");
+            double F = 3 * Math.Sin(x + 2);
+            
+            Console.WriteLine($"Для значения х = {x}, F = {F}.");
+            Console.WriteLine("Нажмите любую клавишу ");
             Console.ReadKey();
         }
     }
